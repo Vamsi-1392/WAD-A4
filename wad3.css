@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: "Inter", serif;
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+    background-color: rgb(67, 150, 171); 
+    color: whitesmoke;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 40%;
+}
+
+.container .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px; 
+    top: 0;  
+    padding: 10px 20px; 
+}
+
+.container .header .logo img {
+    width: 500px;
+    height: 350px;
+    background: transparent;
+}
+
+.container .header .header-text {
+    font-size: 40px;
+    font-weight: bold; 
+    padding-left: 200px; 
+    color: #4a1ae9;
+    padding-right: 200px;
+}
+
+.container .Nav-Bar {
+    margin-top: 150px; 
+    padding: 20px;
+    align-items: center;
+}
+
+.container .Nav-Bar ul {
+    display: flex;
+    justify-content: flex-start; 
+    gap: 30px; 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    padding: 0px 175px;
+}
+
+.container .Nav-Bar ul li {
+    font-size: 32px;
+}
+
+.container .Nav-Bar ul li a {
+    text-decoration: none; 
+    color: #000; 
+    transition: color 0.3s; 
+}
+
+.container .Nav-Bar ul li a:hover {
+    color: #70e91a; 
+}
+
+.main-body{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    position: relative;
+    gap: 50px; 
+    top: 0;  
+}
+.main-body .services{
+    width: 30%;
+    padding: 50px;
+}
+
+.main-body .services ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    gap: 30px; 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+} 
+
+.main-body .services ul li{
+    font-size: 20px;
+}
+.main-body .services ul li a {
+    text-decoration: none; 
+    color: #000; 
+    transition: color 0.3s; 
+}
+
+.main-body .services ul li a:hover {
+    position: relative;
+    color: #abe91a; 
+}
+.main-body .body-text{
+    padding: 10px;
+    width: 70%;
+}
+
+.main-body .body-text pre{
+    font-size: 40px;
+    font-family: "Inter", serif;
+    font-weight: bold;
+}
+
+.main-body .body-text #Home{
+    text-align: center;
+
+}
+
+.main-body .body-text #Home h1{
+    color:rgb(235, 228, 20);
+}
+
+.main-body .body-text #Home img{
+    align-self: center;
+    width: 400px;
+    height: 300px;
+}
+.main-body .body-text #Login{
+    padding-top: 20px;
+}
+.main-body .body-text #Login form{
+    display: grid;
+    place-items: center;
+    border: 2px black;
+    padding-top: 10px;
+}
+.main-body .body-text #Login input{
+    padding: 5px;
+}
+.main-body .body-text #Login label{
+    padding: 5px;
+}
+.main-body .body-text #Login .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-body .body-text #Login h1{
+    text-align: center;
+    color: rgb(208, 231, 2);
+}
+.main-body .body-text #Login button{
+    background-color: rgb(221, 236, 56);
+    border-radius: 27%;
+    padding: 16px 32px;
+    color: whitesmoke;
+}
+.main-body .body-text #Registration{
+    padding-top: 20px;
+}
+.main-body .body-text #Registration form{
+    display: grid;
+    place-items: center;
+    border: 2px black;
+    padding-top: 10px;
+}
+.main-body .body-text #Registration input{
+    padding: 5px;
+}
+.main-body .body-text #Registration label{
+    padding: 5px;
+}
+.main-body .body-text #Registration .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-body .body-text #Registration h1{
+    text-align: center;
+    color: rgb(212, 236, 56);
+}
+.main-body .body-text #Registration button{
+    background-color: rgb(230, 236, 56);
+    border-radius: 27%;
+    padding: 16px 32px;
+    color: whitesmoke;
+}
+.main-body .body-text #catalogue{
+    padding-top: 20px;
+    text-align: center;
+}
+.main-body .body-text #catalogue h1{
+    color: rgb(236, 233, 56);
+}
+.main-body .body-text #catalogue img{
+    padding-top: 10px
+}
+.main-body .body-text #cart{
+    padding-top: 20px;
+    text-align: center;
+}
+.main-body .body-text #cart h1{
+    color: rgb(232, 243, 30);
+}
+.main-body .body-text #cart img{
+    padding-top: 10px
+}
+.main-body .body-text #contactUs{
+    padding-top: 20px;
+    text-align: center;
+}
+.main-body .body-text #contactUs h1{
+    color: rgb(227, 220, 30);
+}
+.main-body .body-text #services1{
+    padding-top: 20px;
+    text-align: center;
+}
+.main-body .body-text #services1 h1{
+    color: rgb(209, 222, 30);
+}
+.main-body .body-text #services2{
+    padding-top: 20px;
+    text-align: center;
+}
+.main-body .body-text #services2 h1{
+    color: rgb(236, 236, 56);
+}
+.main-body .body-text #services3{
+    padding-top: 20px;
+    text-align: center;
+}
+.main-body .body-text #services3 h1{
+    color: rgb(236, 236, 56);
+}
